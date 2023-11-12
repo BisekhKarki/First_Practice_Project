@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    background-color: rgb(75, 75, 75);
+}
+.news{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: white;
+    border: 5px solid white;
+    width: 1100px;
+    border-radius: 50px;
+    padding: 10px 10px;
+    position: absolute;
+    left: 20%;
+    top: 5%;
+   
+}
+i{
+    color: orange;
+}
+.first>h1{
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(13, 13, 60);
+}
+.first>p{
+    font-size: 15px;
+    margin-bottom: 40px;
+    font-weight: 50;
+    margin-left: 5px;
+}
+.icons{
+    margin-bottom: 40px;
+}
+.email-in{
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 420px;
+    border: 2px solid hsl(4, 100%, 67%);
+}
+.register{
+    padding: 10px 20px;
+    background-color:  hsl(234, 29%, 20%);
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    border:  2px solid black;
+    margin-top: 10px;
+    width: 425px;
+}
+.register:hover{
+    cursor: pointer;
+    background-color: hsl(4, 100%, 67%);
+    color: white;
+    border: 2px solid hsl(4, 100%, 67%);
+    transition: 0.2s ease-in-out;
+}
+
+.check{
+    display: flex;
+    justify-content: space-between;
+
+}
+.invalid{
+    color: red;
+}
+
+
+.thanks{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 100px;
+    background-color: white;
+    border: 5px solid white;
+    width: 600px;
+    border-radius: 50px;
+    padding: 50px 50px;
+    position: absolute;
+    left: 35%;
+    top: 20%;
+    display: none;
+}
+h2{
+    font-size: 35px;
+    font-weight: 900;
+}
+.thanks i{
+    font-size: 40px;
+}
+.thanks button{
+    padding: 10px 20px;
+    background-color:  hsl(234, 29%, 20%);
+    color: white;
+    width: 450px;
+    font-size: 15px;
+    border-radius: 10px;
+    border:  2px solid black;
+    margin-top: 10px;
+}
+.thanks button:hover{
+    cursor: pointer;
+    background-color: hsl(4, 100%, 67%);
+    color: white;
+    border: 2px solid hsl(4, 100%, 67%);
+    transition: 0.2s ease-in-out;
+}
+.write{
+ font-size: 20px;
+ color: orange;
+}
+
+@media screen and (max-width: 1300px) {
+    .news{
+        width: 1000px;
+        padding: 8px 8px;
+        left: 10%;
+        top: 2%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .sideImage {
+        src: "./images/illustration-sign-up-mobile.svg";
+    }
+    .news{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
