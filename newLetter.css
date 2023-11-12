@@ -134,7 +134,7 @@ h2{
 
 @media screen and (max-width: 350px) {
     .sideImage {
-        src: "./images/illustration-sign-up-mobile.svg";
+        src: "illustration-sign-up-mobile.svg";
     }
     .news{
         display: flex;
